@@ -10,6 +10,18 @@ This is the standing instruction for each scheduled run. The repository owner as
 
 B2B and B2C. No excluded markets. The owner builds with no-code and AI tools first (Lovable, Supabase), can code but prefers to review architecture, and will only spend once an idea shows cash flow. Owner is in the America/Toronto time zone.
 
+## The owner's bar (set 2026-11-11)
+
+The owner rejected all three night-1 ideas with: "all these ideas are not meaningful and can easily be copied..." Those ideas were a Shopify webhook check, an approval log and a host rota: small software utilities.
+
+How this routine applies that feedback (the assistant's interpretation, not the owner's words):
+
+- **Copy test.** If a competent builder with AI tools could clone the product in a weekend, kill it, whatever its pain score. Software alone is never the moat.
+- **Moat.** Each idea must name what stays hard to copy once AI makes building cheap: a trusted in-person community, a network of vetted people or places, a reputation or credential, exclusive supply, accumulated private data, or a relationship that takes years to earn. Score moat 1-5 and pitch only 4 or 5.
+- **Meaning.** The idea must change something that matters in the buyer's life or work. Convenience features and monitoring tools do not qualify.
+- **Honest tension.** A moat rarely fits in a two-week MVP. The 14-day plan should test demand for the first piece of the moat (for example a first cohort, a first venue, a first ten vetted members), not ship a finished product.
+- Finance and developer tooling stay in scope only where an idea passes all of the above. Expect most nights to pitch fewer than three ideas, or none.
+
 ## Memory
 
 All memory lives on the branch `claude/new-session-8ik0sy` of this repository. The owner has asked that every run reads from and pushes to that branch.
@@ -24,7 +36,7 @@ All memory lives on the branch `claude/new-session-8ik0sy` of this repository. T
 1. Read the four memory files.
 2. Market pass: new funding, pricing changes and entrants in the three niches since the last run.
 3. Pain pass: complaints from the last 30 days. Record the exact quote, link, date and source. Look for "I wish there was", "is there a tool that", "I'd pay for", "why is it so hard to", "switching from", "still doing this manually". Prefer complaints with replies and likes. Ignore jokes, bait and bots.
-4. Score each pain 1-5 on frequency, intensity, willingness to pay, reachability and buildability. Keep only 18+ for ideas.
+4. Score each pain 1-5 on frequency, intensity, willingness to pay, reachability and buildability. Keep only 18+ for ideas, then apply the owner's bar above (copy test, moat 4+, meaning). Show the moat score and the copy test answer in each idea.
 5. Gap pass: search for existing products under every name the idea could have. An idea counts only if people keep asking, no funded product does it well, and it is not a feature a large player will ship next month.
 6. Write the brief: five-line market map, up to three new ideas in five lines each, strongest quote, one idea to test today with the first step. Then each idea in full: name and pitch, gap, who has the pain, three quotes with links, score table, competitors and why they miss, price guess with reasoning, MVP (core, skip, stack, 14-day plan), first 10 customers and the message to send, biggest risk and cheapest test, and a section titled "WHAT WOULD KILL THIS IDEA?".
 7. Commit, push to the memory branch, and email the brief to the owner through Gmail with the subject "Market brief YYYY-MM-DD".

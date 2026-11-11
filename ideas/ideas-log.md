@@ -6,9 +6,14 @@ Never pitch an idea in the "Pitched" table again. Check "Killed" before reviving
 
 | Date | Idea | Score | Status | Brief |
 |---|---|---|---|---|
-| 2026-11-11 | Missed-order check for Shopify automations | 20 | Test today | [brief](../briefs/2026-11-11.md) |
-| 2026-11-11 | Approval receipt for automated payments and agent actions | 18 | Untested | [brief](../briefs/2026-11-11.md) |
-| 2026-11-11 | Host rota for recurring in-person groups | 19 | Untested, proof older than 30 days | [brief](../briefs/2026-11-11.md) |
+| 2026-11-11 | Missed-order check for Shopify automations | 20 | Rejected by owner | [brief](../briefs/2026-11-11.md) |
+| 2026-11-11 | Approval receipt for automated payments and agent actions | 18 | Rejected by owner | [brief](../briefs/2026-11-11.md) |
+| 2026-11-11 | Host rota for recurring in-person groups | 19 | Rejected by owner | [brief](../briefs/2026-11-11.md) |
+
+## Owner feedback
+
+- 2026-11-11, on all three night-1 ideas, in the owner's words: "all these ideas are not meaningful and can easily be copied..."
+- Consequence: the pain score alone is not enough. See "The owner's bar" in `routine/nightly-prompt.md`. Small utilities, templates and single-feature tools are out, whatever they score.
 
 ## Killed
 
